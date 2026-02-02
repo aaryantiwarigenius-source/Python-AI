@@ -48,10 +48,10 @@ while True:
             )
         
 
-        cv2.imshow("Gesture Controlled Camera", frame)
+    cv2.imshow("Gesture Controlled Camera", frame)
 
-        if cv2.waitKey(1) & 0xFF ==ord('q'):
-            break
+    if cv2.waitKey(1) & 0xFF ==ord('q'):
+        break
 
 cap.release()
 cv2.destroyAllWindows()
